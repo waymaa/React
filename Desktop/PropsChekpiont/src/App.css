@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Custom player card styles */
+.bg-linear-to-b {
+  background: linear-gradient(to bottom, var(--from-color, #FF9500), var(--to-color, #FFCC00));
+}
+
+.from-custom-orange {
+  --from-color: #FF9500;
+}
+
+.to-custom-yellow {
+  --to-color: #FFCC00;
+}
+
+.bg-custom-gray-100 {
+  background-color: #f8fafc;
+}
+
+.bg-custom-gray-700 {
+  background-color: #334155;
+}
+
+.bg-custom-gray-800 {
+  background-color: #1e293b;
+}
+
+.border-custom-gray-200 {
+  border-color: #e2e8f0;
+}
+
+.border-custom-gray-600 {
+  border-color: #475569;
+}
+
+.text-team-golden-primary {
+  color: #FFCC00;
+}
+
+.dark .dark\:bg-custom-gray-700 {
+  background-color: #334155;
+}
+
+.dark .dark\:bg-custom-gray-800 {
+  background-color: #1e293b;
+}
+
+.dark .dark\:border-custom-gray-600 {
+  border-color: #475569;
+}
+
+.text-2xs\/tight {
+  font-size: 0.7rem;
+  line-height: 1.1;
+}
